@@ -135,7 +135,7 @@ const Kontak = () => {
       </section>
 
     {/* kontak kami */}
-    <section className="bg-[url('/images/RD-bg_kontakkami.png')] bg-cover bg-center py-12 px-4 text-white min-h-[400px]">
+    <section className="bg-[url('/images/RD-bg_kontakkami.png')] bg-cover bg-center py-12 px-4 text-white min-h-[400px] flex items-center justify-center">
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
     
     {/* Kiri: Judul */}
