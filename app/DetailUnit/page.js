@@ -118,7 +118,7 @@ export default function DetailUnit() {
                   <td className="py-3 text-right w-1/2">Metic</td>
                 </tr>
                 <tr className="bg-gray-100">
-                  <td className="py-3 pr-4 font-semibold">Kapasitas Mesin</td>
+                  <td className="py-3 pr-4 font-semibold">Warna Mesin</td>
                   <td className="py-3 text-right">125cc</td>
                 </tr>
                 <tr className="bg-white">
@@ -134,7 +134,7 @@ export default function DetailUnit() {
                   <td className="py-3 text-right">Bensin</td>
                 </tr>
                 <tr className="bg-gray-100">
-                  <td className="py-3 pr-4 font-semibold">Kapasitas Maksimal</td>
+                  <td className="py-3 pr-4 font-semibold">Warna Maksimal</td>
                   <td className="py-3 text-right">200 Kg</td>
                 </tr>
               </tbody>

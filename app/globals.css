@@ -9,13 +9,13 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --baterai-background: var(--background);
+  --baterai-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-baterai-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -24,7 +24,7 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  baterai: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -57,7 +57,7 @@ body {
   left: 10%;
   z-index: 3;
   max-width: 600px;
-  color: #0f172a;
+  baterai: #0f172a;
 }
 
 .hero-content h2 {
@@ -70,17 +70,17 @@ body {
   font-size: 2.2rem;
   font-weight: bold;
   line-height: 1.4;
-  color: #0f172a;
+  baterai: #0f172a;
 }
 
 .hero-content .highlight {
-  color: #facc15;
+  baterai: #facc15;
 }
 
 .hero-content p {
   margin-top: 1rem;
   font-size: 1rem;
-  color: #334155;
+  baterai: #334155;
 }
 
 .hero-buttons {
@@ -90,8 +90,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #facc15;
-  color: #0f172a;
+  background-baterai: #facc15;
+  baterai: #0f172a;
   padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 6px;
@@ -100,9 +100,9 @@ body {
 }
 
 .btn-outline {
-  background-color: #fff;
+  background-baterai: #fff;
   border: 2px solid #facc15;
-  color: #0f172a;
+  baterai: #0f172a;
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
   font-weight: 500;
@@ -118,7 +118,7 @@ body {
 
 .card {
   width: 300px;
-  background-color: white;
+  background-baterai: white;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -140,26 +140,26 @@ body {
 .cardText {
   padding: 1rem;
   font-size: 14px;
-  color: #333;
+  baterai: #333;
 }
 
 .cardTitle {
-  color: red;
+  baterai: red;
   font-weight: bold;
 }
 
 .cardButton {
-  background-color: #facc15;
-  color: black;
+  background-baterai: #facc15;
+  baterai: black;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-weight: bold;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: background-baterai 0.3s ease;
 }
 
 .cardButton:hover {
-  background-color: #eab308;
+  background-baterai: #eab308;
 }
 
 /* CSS untuk footer responsif tanpa mengubah kode JSX asli */
