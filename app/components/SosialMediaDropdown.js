@@ -29,34 +29,34 @@ const SosialMediaDropdown = () => {
         <div className={`transition-all duration-300 ease-in-out overflow-hidden ${activeDropdown === "whatsapp" ? "max-h-[500px]" : "max-h-0"}`}>
           <div className="px-4 pb-4 pt-2 text-black space-y-4 text-sm">
 <div className="px-4 pb-4 pt-2 text-black space-y-4 text-sm">
-  {/* Bandung */}
+  {/*  jakarta bekasi bandung */}
   <div>
-    <div className="font-semibold">Bandung</div>
+    <div className="font-semibold">Jakarta, Bekasi & Bandung</div>
     <a
-      href="https://wa.me/6288010458655"
+      href="https://wa.me/628153135669"
       target="_blank"
       className="inline-block bg-green-600 text-white px-4 py-2 rounded-full mt-1 text-sm"
     >
-      (+62) 088 0104 58655
+      (+62) 815 3135 669
     </a>
   </div>
   <hr className="border-t border-green-400" />
 
-  {/* Bali */}
+  {/* bali, malang, purwokerto, surabaya */}
   <div>
-    <div className="font-semibold">Bali</div>
+    <div className="font-semibold">Bali, Malang, Purwokerto & Surabaya</div>
     <a
-      href="https://wa.me/6288010458655"
+      href="https://wa.me/6287715410084"
       target="_blank"
       className="inline-block bg-green-600 text-white px-4 py-2 rounded-full mt-1 text-sm"
     >
-      (+62) 088 0104 58655
+      (+62) 877 1541 0084
     </a>
   </div>
   <hr className="border-t border-green-400" />
 
   {/* Purwokerto */}
-  <div>
+  {/* <div>
     <div className="font-semibold">Purwokerto</div>
     <a
       href="https://wa.me/6288010458655"
@@ -66,10 +66,10 @@ const SosialMediaDropdown = () => {
       (+62) 088 0104 58655
     </a>
   </div>
-  <hr className="border-t border-green-400" />
+  <hr className="border-t border-green-400" /> */}
 
   {/* Malang */}
-  <div>
+  {/* <div>
     <div className="font-semibold">Malang</div>
     <a
       href="https://wa.me/6288010458655"
@@ -79,6 +79,8 @@ const SosialMediaDropdown = () => {
       (+62) 088 0104 58655
     </a>
   </div>
+</div>
+</div> */}
 </div>
 </div>
         </div>
@@ -101,10 +103,10 @@ const SosialMediaDropdown = () => {
         <div className={`transition-all duration-300 ease-in-out overflow-hidden ${activeDropdown === "tiktok" ? "max-h-[500px]" : "max-h-0"}`}>
           <div className="px-4 pb-4 pt-2 text-black space-y-4 text-sm">
             {[
-              { area: "Bandung", users: [{ handle: "@rentaldaybandung", link: "https://www.tiktok.com/@rentaldaybandung" }, { handle: "@rentalday.student", link: "https://www.tiktok.com/@rentalday.student" }] },
-              { area: "Bali", users: [{ handle: "@rentalday_", link: "https://www.tiktok.com/@rentalday_" }] },
-              { area: "Purwokerto", users: [{ handle: "@rentalday.pwt", link: "https://www.tiktok.com/@rentalday.pwt" }] },
-              { area: "Malang", users: [{ handle: "@rentaldaymlg", link: "https://www.tiktok.com/@rentaldaymlg" }] },
+              { area: "Jakarta", users: [{ handle: "@ig_pixelnesia.jkt", link: "https://www.tiktok.com/@ig_pixelnesia.jkt?_t=ZS-8y2PF4V0vtX&_r=1" }, ]},
+              { area: "Purwokerto", users: [{ handle: "@pixelnesia.pwt", link: "https://www.tiktok.com/@pixelnesia.pwt?_t=ZS-8y2PHwOMVc7&_r=1" }] },
+              // { area: "Purwokerto", users: [{ handle: "@rentalday.pwt", link: "https://www.tiktok.com/@rentalday.pwt" }] },
+              // { area: "Malang", users: [{ handle: "@rentaldaymlg", link: "https://www.tiktok.com/@rentaldaymlg" }] },
             ].map((region, index) => (
               <div key={index}>
                 {index > 0 && <hr className="border-t border-gray-300 my-2" />}
@@ -128,51 +130,52 @@ const SosialMediaDropdown = () => {
       </div>
 
       {/* Instagram */}
-      <div className="w-full max-w-xs bg-white rounded-xl shadow overflow-hidden">
-        <button
-          onClick={() => toggleDropdown("instagram")}
-          className="flex items-center justify-between w-full px-4 py-3 text-pink-500 font-semibold"
-        >
-          <div className="flex items-center gap-2">
-            <img src="/images/logos_instagram-icon.png" className="h-5" />
-            Instagram
-          </div>
-          <span className={`transition-transform ${activeDropdown === "instagram" ? "rotate-180" : ""}`}>
-            &#9650;
-          </span>
-        </button>
-        <div className={`transition-all duration-300 ease-in-out overflow-hidden ${activeDropdown === "instagram" ? "max-h-[500px]" : "max-h-0"}`}>
-          <div className="px-4 pb-4 pt-2 text-black space-y-4 text-sm">
-            {[
-            { area: "Bandung", users: [
-              { handle: "@rentalday.student", link: "https://instagram.com/rentalday.student" },
-              { handle: "@rentalday.molis", link: "https://instagram.com/rentalday.molis" },
-              { handle: "@bandungrider.id", link: "https://instagram.com/bandungrider.id" }
-            ]},
-            { area: "Bali", users: [{ handle: "@balirider.id", link: "https://instagram.com/balirider.id" }] },
-            { area: "Purwokerto", users: [{ handle: "@rentalday.pwt", link: "https://instagram.com/rentalday.pwt" }] },
-            { area: "Malang", users: [{ handle: "@rentaldaymlg", link: "https://instagram.com/rentaldaymlg" }] },
-          ].map((region, index) => (
-            <div key={index}>
-              {index > 0 && <hr className="border-t border-gray-300 my-2" />}
-              <div className="font-semibold mb-1">{region.area}</div>
-              <div className="flex flex-wrap gap-2">
-                {region.users.map((user, idx) => (
-                  <a
-                    key={idx}
-                    href={user.link}
-                    target="_blank"
-                    className="bg-pink-500 text-white px-4 py-1 rounded-full text-xs hover:underline"
-                  >
-                    {user.handle}
-                  </a>
-                ))}
-              </div>
-            </div>
-          ))}
+<div className="w-full max-w-xs bg-white rounded-xl shadow overflow-hidden">
+  <button
+    onClick={() => toggleDropdown("instagram")}
+    className="flex items-center justify-between w-full px-4 py-3 text-pink-500 font-semibold"
+  >
+    <div className="flex items-center gap-2">
+      <img src="/images/logos_instagram-icon.png" className="h-5" />
+      Instagram
+    </div>
+    <span className={`transition-transform ${activeDropdown === "instagram" ? "rotate-180" : ""}`}>
+      &#9650;
+    </span>
+  </button>
+  <div className={`transition-all duration-300 ease-in-out overflow-hidden ${activeDropdown === "instagram" ? "max-h-[1000px]" : "max-h-0"}`}>
+    <div className="px-4 pb-4 pt-2 text-black space-y-4 text-sm">
+      {[
+        { area: "Pusat", users: [{ handle: "@pixelnesia.id", link: "https://instagram.com/pixelnesia.id" }] },
+        { area: "Jakarta", users: [{ handle: "@pixelnesia.jkt", link: "https://instagram.com/pixelnesia.jkt" }] },
+        { area: "Bekasi / Cikarang", users: [{ handle: "@sewaiphone.bekasicikarang", link: "https://instagram.com/sewaiphone.bekasicikarang" }] },
+        { area: "Surabaya", users: [{ handle: "@pixelnesia.surabaya", link: "https://instagram.com/pixelnesia.surabaya" }] },
+        { area: "Malang", users: [{ handle: "@pixelnesia.malang", link: "https://instagram.com/pixelnesia.malang" }] },
+        { area: "Purwokerto", users: [{ handle: "@pixelnesia.pwt", link: "https://instagram.com/pixelnesia.pwt" }] },
+        { area: "Bali", users: [{ handle: "@pixelnesia.bali", link: "https://instagram.com/pixelnesia.bali" }] },
+      ].map((region, index) => (
+        <div key={index}>
+          {index > 0 && <hr className="border-t border-gray-300 my-2" />}
+          <div className="font-semibold mb-1">{region.area}</div>
+          <div className="flex overflow-x-auto gap-2">
+            {region.users.map((user, idx) => (
+              <a
+                key={idx}
+                href={user.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-pink-500 text-white px-4 py-1 rounded-full text-xs whitespace-nowrap hover:underline"
+              >
+                {user.handle}
+              </a>
+            ))}
           </div>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+</div>
+
 
     </div>
   );

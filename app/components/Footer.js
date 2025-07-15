@@ -74,12 +74,14 @@ export default function Footer() {
               <a href="mailto:ptdahliglobalindo@gmail.com" className="hover:text-yellow-500">ptdahliglobalindo@gmail.com</a>
             </p>
             <p>
-              <a href="tel:+6285724785060" className="hover:text-yellow-500">(+62) 857-2478-5060</a>
+              <a href="https://wa.me/628153135669" className="hover:text-yellow-500">(+62) 815 3135 669 (Jakarta) </a>
             </p>
-            <p>Bandung</p>
+            {/* <p>Jakarta, Bekasi & Bandung</p> */}
+            <Link href="/Kontak">
             <button className="bg-yellow-400 hover:bg-yellow-500 transition mt-2 text-sm font-medium px-4 py-2 rounded-full">
               Lihat Kontak Lainnya
             </button>
+            </Link>
           </div>
         </div>
 
@@ -93,13 +95,15 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-yellow-500"
             >
-              Jl. PSM RW No.36, RW.1/5/13, Kebun Jayanti, Kota Bandung, Jawa Barat, Indonesia
+              Jl. Kayu Manis Timur II No.53, Matraman, Kota Jakarta Timur, Jakarta (Jakarta)
             </a>
           </p>
-          <p className="mt-1">Bandung</p>
+          {/* <p className="mt-1">Bandung</p> */}
+          <Link href="/Kontak">
           <button className="bg-yellow-400 hover:bg-yellow-500 transition mt-2 text-sm font-medium px-4 py-2 rounded-full">
             Lihat Alamat Lainnya
           </button>
+          </Link>
         </div>
       </div>
 
