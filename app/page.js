@@ -34,10 +34,10 @@ export default function HomePage() {
         terbaru tanpa beban biaya mahal. Sewa mudah, <br className="hidden sm:block" />
         cepat, dan aman
       </p>
-      <div className="mt-6 flex flex-col sm:flex-row justify-center md:justify-end gap-3 sm:gap-1">
+      <div className="mt-6 flex justify-end gap-2 flex-wrap">
         <a
           href="/DaftarUnit"
-          className="bg-yellow-300 text-black px-6 py-2 rounded-l-full shadow hover:bg-gray-100 text-md text-center"
+          className="bg-yellow-300 text-black px-6 py-2 rounded-l-full shadow hover:bg-gray-100"
         >
           Lihat Daftar Iphone
         </a>

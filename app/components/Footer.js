@@ -108,12 +108,12 @@ export default function Footer() {
       </div>
 
       {/* Footer bawah */}
-      <div className="bg-yellow-400 py-2 text-center text-xs text-black">
+      {/* <div className="bg-yellow-400 py-2 text-center text-xs text-black">
         ©Riyadatunnisa. Hak Cipta Dilindungi oleh undang-undang. |{" "}
         <a href="https://goent.id" target="_blank" rel="noopener noreferrer" className="underline">
           Powered by GoEnt
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 }
