@@ -103,10 +103,51 @@ const SosialMediaDropdown = () => {
         <div className={`transition-all duration-300 ease-in-out overflow-hidden ${activeDropdown === "tiktok" ? "max-h-[500px]" : "max-h-0"}`}>
           <div className="px-4 pb-4 pt-2 text-black space-y-4 text-sm">
             {[
-              { area: "Jakarta", users: [{ handle: "@ig_pixelnesia.jkt", link: "https://www.tiktok.com/@ig_pixelnesia.jkt?_t=ZS-8y2PF4V0vtX&_r=1" }, ]},
-              { area: "Purwokerto", users: [{ handle: "@pixelnesia.pwt", link: "https://www.tiktok.com/@pixelnesia.pwt?_t=ZS-8y2PHwOMVc7&_r=1" }] },
-              // { area: "Purwokerto", users: [{ handle: "@rentalday.pwt", link: "https://www.tiktok.com/@rentalday.pwt" }] },
-              // { area: "Malang", users: [{ handle: "@rentaldaymlg", link: "https://www.tiktok.com/@rentaldaymlg" }] },
+              {
+    area: "Jakarta",
+    users: [
+      {
+        handle: "@ig_pixelnesia.jkt",
+        link: "https://www.tiktok.com/@ig_pixelnesia.jkt?_t=ZS-8yK510bzuvn&_r=1"
+      }
+    ]
+  },
+  {
+    area: "Purwokerto",
+    users: [
+      {
+        handle: "@pixelnesia.pwt",
+        link: "https://www.tiktok.com/@pixelnesia.pwt?_t=ZS-8yK54FyQCPv&_r=1"
+      }
+    ]
+  },
+  {
+    area: "Bali",
+    users: [
+      {
+        handle: "@sewaiphone.pixelnesia",
+        link: "https://www.tiktok.com/@sewaiphone.pixelnesia?_t=ZS-8yK55j7xSit&_r=1"
+      }
+    ]
+  },
+  {
+    area: "Malang",
+    users: [
+      {
+        handle: "@pixelnesia.malang",
+        link: "https://www.tiktok.com/@pixelnesia.malang?_t=ZS-8yK578MBOl8&_r=1"
+      }
+    ]
+  },
+  {
+    area: "Jogja",
+    users: [
+      {
+        handle: "@pixelnesia.jogja",
+        link: "https://www.tiktok.com/@pixelnesia.jogja?_t=ZS-8yK5FkVHoM4&_r=1"
+      }
+    ]
+  },
             ].map((region, index) => (
               <div key={index}>
                 {index > 0 && <hr className="border-t border-gray-300 my-2" />}
