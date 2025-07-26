@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import { iphoneUnits } from "../../../data/units";
 import Footer from "../../components/Footer";
 import BackButton from '../../components/BackButton';
+import Image from 'next/image';
 
 export default function DetailUnit() {
   const { id } = useParams();
@@ -25,11 +26,14 @@ export default function DetailUnit() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-10 py-8 bg-white">
         {/* Image */}
         <div className="flex justify-center items-center">
-          <img
-            src={unit.image}
-            alt={unit.name}
-            className="w-full max-w-xs md:max-w-md object-contain"
-          />
+          <div className="relative w-full max-w-xs md:max-w-md aspect-[3/2]">
+            <Image
+              src={unit.image}
+              alt={unit.name}
+              fill
+              className="object-contain"
+            />
+          </div>
         </div>
 
         {/* Info */}

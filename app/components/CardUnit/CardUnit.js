@@ -1,16 +1,19 @@
-// components/CardUnit/CardUnit.jsx
 "use client";
+
 import Link from 'next/link';
+import Image from 'next/image';
 
 const CardUnit = ({ id, name, description, image, role = "Mahasiswa" }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 w-full flex flex-col">
       <div className="p-4">
         <div className="relative w-full h-36 sm:h-40 bg-white rounded-lg overflow-hidden">
-          <img 
+          <Image 
             src={image} 
             alt={name} 
-            className="w-full h-full object-contain"
+            fill
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, 100%"
           />
         </div>
       </div>

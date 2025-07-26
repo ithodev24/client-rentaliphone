@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
@@ -22,7 +23,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="/images/logo_pixel.png" alt="Logo" className="w-8 h-8" />
+          <Image
+            src="/images/logo_pixel.png"
+            alt="Logo"
+            width={32}
+            height={32}
+            className="w-8 h-8"
+            priority
+          />
           <span className="text-black font-semibold text-lg">Pixelnesia</span>
         </div>
 

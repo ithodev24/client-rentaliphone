@@ -4,6 +4,7 @@ import { FaSearch, FaSpinner } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 import AnimatePage from "../components/AnimatePage";
 import { useState, useEffect } from "react";
 
@@ -129,11 +130,12 @@ export default function Artikel() {
               {currentArticles.map((article) => (
                 <Link href={`/artikel/${article.slug}`} key={article.id}>
                   <div className="bg-white rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 shadow-xl flex flex-col h-[320px]">
-                    <div className="w-full h-40 relative overflow-hidden">
-                      <img
+                    <div className="w-full h-40 relative">
+                      <Image
                         src={`http://localhost:3333/${article.thumbnail}`}
                         alt={article.title}
-                        className="w-full h-full object-cover absolute inset-0"
+                        fill
+                        className="object-cover"
                       />
                     </div>
                     <div className="p-4 flex flex-col justify-between flex-1">

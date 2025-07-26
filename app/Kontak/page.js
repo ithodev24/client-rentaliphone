@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import SosialMediaDropdown from "../components/SosialMediaDropdown";
 import MapsKontak from "../components/MapsKontak";
 import Notification from "../components/Notification";
+import Image from "next/image";
 
 const Kontak = () => {
   const [form, setForm] = useState({
@@ -176,9 +177,11 @@ const Kontak = () => {
 
           {/* Ilustrasi */}
           <div className="flex justify-center items-end h-full md:h-[300px] mt-6 md:mt-0">
-            <img
+            <Image
               src="/images/icon-kontakkami.png"
               alt="Ilustrasi Kontak"
+              width={300}
+              height={300}
               className="max-w-[220px] md:max-w-sm object-contain drop-shadow-lg"
             />
           </div>

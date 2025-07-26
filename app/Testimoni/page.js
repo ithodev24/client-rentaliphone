@@ -1,28 +1,29 @@
 "use client";
 
-import { useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const testimonials = [
   {
-    name: 'Riyadatunnisa',
-    role: 'Mahasiswi',
-    video: '/videos/Trevo - Aplikasi Rental Mobil.mp4',
-    text: 'Motornya nyaman banget, dapet fasilitas keamanan juga. Untuk pengambilan motor bisa diantar sesuai dengan alamat persetujuan, mantap.',
+    name: "Riyadatunnisa",
+    role: "Mahasiswi",
+    video: "/videos/Trevo - Aplikasi Rental Mobil.mp4",
+    text: "Motornya nyaman banget, dapet fasilitas keamanan juga. Untuk pengambilan motor bisa diantar sesuai dengan alamat persetujuan, mantap.",
   },
   {
-    name: 'Rudi Jonh',
-    role: 'Wisatawan',
-    video: '/videos/Trevo - Aplikasi Rental Mobil.mp4',
-    text: 'Pelayanan sangat memuaskan, motor dalam kondisi prima dan proses sewa mudah sekali. Akan sewa lagi next time!',
+    name: "Rudi Jonh",
+    role: "Wisatawan",
+    video: "/videos/Trevo - Aplikasi Rental Mobil.mp4",
+    text: "Pelayanan sangat memuaskan, motor dalam kondisi prima dan proses sewa mudah sekali. Akan sewa lagi next time!",
   },
   {
-    name: 'Cahaya Insani',
-    role: 'Mahasiswi',
-    video: '/videos/Trevo - Aplikasi Rental Mobil.mp4',
-    text: 'Harga terjangkau untuk kualitas motor yang diberikan. Proses pengantaran cepat dan petugasnya ramah.',
+    name: "Cahaya Insani",
+    role: "Mahasiswi",
+    video: "/videos/Trevo - Aplikasi Rental Mobil.mp4",
+    text: "Harga terjangkau untuk kualitas motor yang diberikan. Proses pengantaran cepat dan petugasnya ramah.",
   },
 ];
 
@@ -42,8 +43,8 @@ export default function Testimonials() {
       className="min-h-screen w-full text-white"
       style={{
         backgroundImage: "url('/images/testimonial.png')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <Navbar />
@@ -55,7 +56,6 @@ export default function Testimonials() {
         </h2>
 
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-10">
-          
           {/* Box Besar */}
           <div className="relative w-[90%] max-w-sm md:w-full md:max-w-md">
             <div className="bg-white text-black p-4 rounded-2xl shadow-lg flex flex-col h-[400px]">
@@ -76,19 +76,25 @@ export default function Testimonials() {
               </div>
               <div className="flex items-start justify-between mt-2 gap-4">
                 <p className="text-sm text-gray-700 flex-1">{testimonials[currentIndex].text}</p>
-                <img src="/images/logo_rentalday.png" alt="Logo" className="h-14 object-contain" />
+                <Image
+                  src="/images/logo_rentalday.png"
+                  alt="Logo"
+                  width={56}
+                  height={56}
+                  className="h-14 object-contain"
+                />
               </div>
             </div>
 
             {/* Tombol Navigasi Desktop */}
-            <button 
-              onClick={handlePrev} 
+            <button
+              onClick={handlePrev}
               className="hidden md:block absolute -left-12 top-1/2 -translate-y-1/2 bg-yellow-400 text-black p-2 rounded-full hover:bg-yellow-500"
             >
               <ChevronLeft size={20} />
             </button>
-            <button 
-              onClick={handleNext} 
+            <button
+              onClick={handleNext}
               className="hidden md:block absolute -right-12 top-1/2 -translate-y-1/2 bg-yellow-400 text-black p-2 rounded-full hover:bg-yellow-500"
             >
               <ChevronRight size={20} />
@@ -103,8 +109,14 @@ export default function Testimonials() {
             </h2>
 
             <div className="hidden md:flex mt-2 flex-col md:flex-row gap-8 md:ml-8">
-              {[testimonials[(currentIndex - 1 + testimonials.length) % testimonials.length], testimonials[(currentIndex + 1) % testimonials.length]].map((item, index) => (
-                <div key={index} className="w-[90%] max-w-sm md:w-80 bg-white text-black p-4 rounded-2xl shadow-lg flex flex-col">
+              {[
+                testimonials[(currentIndex - 1 + testimonials.length) % testimonials.length],
+                testimonials[(currentIndex + 1) % testimonials.length],
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="w-[90%] max-w-sm md:w-80 bg-white text-black p-4 rounded-2xl shadow-lg flex flex-col"
+                >
                   <div className="relative rounded-xl overflow-hidden aspect-video">
                     <video
                       src={item.video}
@@ -122,7 +134,13 @@ export default function Testimonials() {
                   </div>
                   <div className="flex items-start justify-between mt-2 gap-4">
                     <p className="text-sm text-gray-700 flex-1">{item.text}</p>
-                    <img src="/images/logo_rentalday.png" alt="Logo" className="h-14 object-contain" />
+                    <Image
+                      src="/images/logo_rentalday.png"
+                      alt="Logo"
+                      width={56}
+                      height={56}
+                      className="h-14 object-contain"
+                    />
                   </div>
                 </div>
               ))}
