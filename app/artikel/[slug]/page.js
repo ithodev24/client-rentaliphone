@@ -15,11 +15,7 @@ export default function DetailArtikel() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-<<<<<<< HEAD
     fetch(`https://backend.ptdahliaglobalindo.id/article/${slug}`)
-=======
-    fetch(`https://backend.ptdahliaglobalindo.id:3333/article/${slug}`)
->>>>>>> 3a849ada218b1fc9d9f802f78247e3496e71ccc5
       .then((res) => res.json())
       .then((data) => setArtikel(data))
       .catch((err) => {
