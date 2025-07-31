@@ -18,7 +18,7 @@ export default function HomePage() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3333/article")
+    fetch("https://backend.ptdahliaglobalindo.id:3333/article")
       .then((res) => res.json())
       .then((data) => {
         setArticles(data.slice(0, 3)); // Ambil 3 artikel pertama
@@ -54,7 +54,7 @@ export default function HomePage() {
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold italic leading-tight">
               Pixelnesia
             </h1>
-            <p className="mt-4 text-base sm:text-xl md:text-2xl leading-relaxed">
+            <p className="mt-4 text-lg sm:text-xl md:text-2xl leading-relaxed">
               Nikmati pengalaman menggunakan smartphone <br className="hidden sm:block" />
               terbaru tanpa beban biaya mahal. Sewa mudah, <br className="hidden sm:block" />
               cepat, dan aman
@@ -70,8 +70,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 w-full bg-black/80 text-white py-5 px-4 md:px-10">
-          <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+         <div className="absolute bottom-0 left-0 w-full bg-black/80 text-white py-5 px-4 md:px-10 ">
+            <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
               ["icon_pelayanan.png", "Pelayanan Terbaik"],
               ["icon_keamanan.png", "Keamanan Terjaga"],
@@ -94,7 +94,7 @@ export default function HomePage() {
             <div className="bg-white rounded-xl shadow-lg w-full lg:w-[2100px] h-auto lg:h-[500px] overflow-hidden">
               <div className="w-full h-64 lg:h-80 relative">
                 <Image
-                  src={`http://localhost:3333/${articles[0].thumbnail}`}
+                  src={`https://backend.ptdahliaglobalindo.id:3333/${articles[0].thumbnail}`}
                   alt={articles[0].title}
                   fill
                   className="object-cover"
@@ -126,7 +126,7 @@ export default function HomePage() {
                   >
                     <div className="w-full h-64 lg:h-30 relative">
                       <Image
-                        src={`http://localhost:3333/${item.thumbnail}`}
+                        src={`https://backend.ptdahliaglobalindo.id:3333/${item.thumbnail}`}
                         alt={item.title}
                         fill
                         className="object-cover"
