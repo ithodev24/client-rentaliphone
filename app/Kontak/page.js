@@ -52,7 +52,11 @@ const Kontak = () => {
     setIsSending(true);
 
     try {
+<<<<<<< HEAD
       const response = await fetch("http://backend.ptdahliaglobalindo.id/kontak", {
+=======
+      const response = await fetch("https://backend.ptdahliaglobalindo.id/kontak", {
+>>>>>>> 3a849ada218b1fc9d9f802f78247e3496e71ccc5
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

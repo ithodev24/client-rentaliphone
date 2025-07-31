@@ -16,7 +16,11 @@ export default function Artikel() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
+<<<<<<< HEAD
     fetch("https://backend.ptdahliaglobalindo.id/article?entity=RENTAL_IPHONE")
+=======
+    fetch("https://backend.ptdahliaglobalindo.id:3333/article?entity=RENTAL_IPHONE")
+>>>>>>> 3a849ada218b1fc9d9f802f78247e3496e71ccc5
       .then((res) => res.json())
       .then((data) => {
         setArticles(data);
@@ -132,7 +136,11 @@ export default function Artikel() {
                   <div className="bg-white rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 shadow-xl flex flex-col h-[320px]">
                     <div className="w-full h-40 relative">
                       <Image
+<<<<<<< HEAD
                         src={`https://backend.ptdahliaglobalindo.id/${article.thumbnail}`}
+=======
+                        src={`https://backend.ptdahliaglobalindo.id:3333/${article.thumbnail}`}
+>>>>>>> 3a849ada218b1fc9d9f802f78247e3496e71ccc5
                         alt={article.title}
                         fill
                         className="object-cover"

@@ -15,9 +15,9 @@ export default function DaftarUnit() {
 
   const filterByHarga = (harga, selected) => {
     const h = parseInt(harga);
-    if (selected === "low") return h <= 150000;
-    if (selected === "mid") return h > 150000 && h <= 300000;
-    if (selected === "high") return h > 300000;
+    if (selected === "low") return h >= 50000 && h <= 100000;
+    if (selected === "mid") return h > 100000 && h <= 150000;
+    if (selected === "high") return h > 150000;
     return true;
   };
 
@@ -102,9 +102,9 @@ export default function DaftarUnit() {
                 }}
               >
                 <option value="">Harga</option>
-                <option value="low">≤ Rp150.000</option>
-                <option value="mid">Rp150.000 - Rp300.000</option>
-                <option value="high">≥ Rp300.000</option>
+                <option value="low">50k++</option>
+                <option value="mid">100k++</option>
+                <option value="high">150k++</option>
               </select>
 
               {/* Dropdown lain */}

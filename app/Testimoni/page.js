@@ -7,24 +7,42 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const testimonials = [
-  {
-    name: "Riyadatunnisa",
-    role: "Mahasiswi",
-    video: "/videos/Trevo - Aplikasi Rental Mobil.mp4",
-    text: "Motornya nyaman banget, dapet fasilitas keamanan juga. Untuk pengambilan motor bisa diantar sesuai dengan alamat persetujuan, mantap.",
-  },
-  {
-    name: "Rudi Jonh",
-    role: "Wisatawan",
-    video: "/videos/Trevo - Aplikasi Rental Mobil.mp4",
-    text: "Pelayanan sangat memuaskan, motor dalam kondisi prima dan proses sewa mudah sekali. Akan sewa lagi next time!",
-  },
-  {
-    name: "Cahaya Insani",
-    role: "Mahasiswi",
-    video: "/videos/Trevo - Aplikasi Rental Mobil.mp4",
-    text: "Harga terjangkau untuk kualitas motor yang diberikan. Proses pengantaran cepat dan petugasnya ramah.",
-  },
+{
+  name: "Riyadatunnisa",
+  role: "Mahasiswi",
+  video: "/videos/testimoni-pixel-1.mp4",
+  text: "Motornya nyaman banget, dapet fasilitas keamanan juga. Untuk pengambilan motor bisa diantar sesuai dengan alamat persetujuan, mantap.",
+},
+{
+  name: "Ayu Nadya",
+  role: "Wisatawan",
+  video: "/videos/testimoni-pixel-2.mp4",
+  text: "Pelayanan sangat memuaskan, motor dalam kondisi prima dan proses sewa mudah sekali. Akan sewa lagi next time!",
+},
+{
+  name: "Arkan Fauzan",
+  role: "Mahasiswi",
+  video: "/videos/testimoni-pixel-3.mp4",
+  text: "Harga terjangkau untuk kualitas motor yang diberikan. Proses pengantaran cepat dan petugasnya ramah.",
+},
+{
+  name: "Dhia Naomi",
+  role: "Mahasiswi",
+  video: "/videos/testimoni-pixel-4.mp4",
+  text: "Saya pakai untuk ke kampus harian, hemat bensin dan gak rewel. Sewa lewat website-nya juga gampang banget!",
+},
+{
+  name: "Arya Zaka",
+  role: "Wisatawan",
+  video: "/videos/testimoni-pixel-5.mp4",
+  text: "Sangat terbantu selama eksplorasi kota! Motornya bersih, wangi, dan dikasih 2 helm juga. Highly recommended!",
+},
+{
+  name: "Deni Lesmana",
+  role: "Mahasiswa",
+  video: "/videos/testimoni-pixel-6.mp4",
+  text: "Pakai rental ini saat liburan semester, motor enak dibawa, ga ribet urusan administrasi. Bakal balik lagi ke sini.",
+},
 ];
 
 export default function Testimonials() {

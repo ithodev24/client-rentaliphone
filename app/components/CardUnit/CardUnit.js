@@ -18,9 +18,9 @@ const CardUnit = ({ id, name, description, image, role = "Mahasiswa" }) => {
         </div>
       </div>
       <div className="bg-[#F7F5EB] px-4 py-4 flex flex-col justify-between flex-1">
-        <span className="inline-block bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full mb-2 w-fit">
+        {/* <span className="inline-block bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full mb-2 w-fit">
           {role}
-        </span>
+        </span> */}
         <div className="flex-grow mb-3">
           <h3 className="text-base font-bold text-gray-800 line-clamp-2">{name}</h3>
           <p className="text-sm text-gray-700 mt-1 line-clamp-3">{description}</p>

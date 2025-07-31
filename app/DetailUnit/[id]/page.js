@@ -5,6 +5,7 @@ import { iphoneUnits } from "../../../data/units";
 import Footer from "../../components/Footer";
 import BackButton from '../../components/BackButton';
 import Image from 'next/image';
+import { generateWhatsAppLink } from "@/data/adminContacts";
 
 export default function DetailUnit() {
   const { id } = useParams();
@@ -55,11 +56,11 @@ export default function DetailUnit() {
                 {unit.daerah}
               </span>
             )}
-            {unit.role && (
+            {/* {unit.role && (
               <span className="border border-yellow-500 px-4 py-1 rounded-full">
                 {unit.role}
               </span>
-            )}
+            )} */}
           </div>
 
           {/* Harga */}
@@ -95,19 +96,19 @@ export default function DetailUnit() {
 
           {/* Tombol Sewa */}
           <div className="pt-2">
-            <a
-              href="https://wa.me/6285829764860"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <button className="bg-[#FFDD00] hover:bg-yellow-500 text-black font-bold py-2 w-full rounded-full shadow">
-                Sewa Sekarang
-              </button>
-            </a>
+              <a
+                href={generateWhatsAppLink(unit)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 w-full rounded-full shadow">
+                  Sewa Sekarang
+                </button>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
       {/* Info bawah */}
       <div className="bg-yellow-300 text-black px-4 md:px-10 py-8 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 text-base">
