@@ -22,9 +22,9 @@ const locations = [
   },
   {
     kota: "Bali",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.3491861587963!2d115.20369237591102!3d-8.642910187465966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24719e1165f97%3A0x7f055c3e50f62f6c!2sBali%20Rider!5e0!3m2!1sid!2sid!4v1687582123456!5m2!1sid!2sid",
-    alamat: "86J9+4RX, Jl. Raya Puputan, Dauh Puri, Kec. Denpasar Bar., Kota Denpasar, Bali",
-    link: "https://maps.app.goo.gl/ceWTHE1Wm2zQ7dU59?g_st=com.google.maps.preview.copy"
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.58196687435!2d115.229894!3d-8.691706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241005a5b3f15%3A0xc683be766d18f2d1!2sKos%20Gung%20Aji!5e1!3m2!1sid!2sid!4v1753943486783!5m2!1sid!2sid",
+    alamat: "Jl. Tukad Pancoran IV A 4 No.15, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225",
+    link: "https://maps.app.goo.gl/t9117h7NzkNqj6Kp8"
   },
   {
     kota: "Surabaya",
@@ -34,16 +34,16 @@ const locations = [
   },
   {
     kota: "Purwokerto",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9280737757423!2d109.23359187590778!3d-7.796427792214827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ef6c37970d3%3A0x3e7ad1a5c2c1bc12!2sJl.%20Jenderal%20Sudirman%20No.100%2C%20Purwokerto!5e0!3m2!1sid!2sid!4v1721021635379!5m2!1sid!2sid",
-    alamat: "Pabuaran, Kabupaten Banyumas, Jawa Tengah",
-    link: "https://maps.app.goo.gl/AUQEj9toeZMrs74o8?g_st=ic"
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3256.001614465823!2d109.24337377500092!3d-7.391921092617843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjMnMzAuOSJTIDEwOcKwMTQnNDUuNCJF!5e1!3m2!1sid!2sid!4v1753943214261!5m2!1sid!2sid",
+    alamat: "Pabuaran Jl. Gunung Merapi RT 001/002 Purwokerto Utara",
+    link: "https://maps.app.goo.gl/XsevsjjDs9aXdjSG9"
   },
-  // {
-  //   kota: "Malang",
-  //   embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.202782857075!2d112.62660357591018!3d-7.977671692064582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78828e465b0501%3A0x6bc573ff630d0f07!2sJl.%20Ijen%20No.50%2C%20Malang!5e0!3m2!1sid!2sid!4v1721021674047!5m2!1sid!2sid",
-  //   alamat: "Jl. Ijen No.50, Klojen, Malang, Jawa Timur",
-  //   link: "https://maps.app.goo.gl/example-malang" //malang menyusul
-  // }
+  {
+    kota: "Malang",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.461707027334!2d112.6453554!3d-7.984129300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629b5b8e68f0d%3A0x7a92cada772737c0!2sMALANG%20RIDER%20(SEWA%20MOTOR%20MALANG)!5e1!3m2!1sid!2sid!4v1753943338389!5m2!1sid!2sid",
+    alamat: "Jl. Puntadewa III No.14, Polehan, Kec. Blimbing, Kota Malang, Jawa Timur 65121",
+    link: "https://maps.app.goo.gl/hPmba2duu9bNrZqG6"
+  }
 ];
 
 export default function MapsKontak() {

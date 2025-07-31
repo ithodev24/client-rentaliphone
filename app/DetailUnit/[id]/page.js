@@ -55,11 +55,11 @@ export default function DetailUnit() {
                 {unit.daerah}
               </span>
             )}
-            {unit.role && (
+            {/* {unit.role && (
               <span className="border border-yellow-500 px-4 py-1 rounded-full">
                 {unit.role}
               </span>
-            )}
+            )} */}
           </div>
 
           {/* Harga */}
