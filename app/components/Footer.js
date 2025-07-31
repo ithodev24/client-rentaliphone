@@ -66,12 +66,15 @@ export default function Footer() {
 
 
           {/* Logo Bank */}
-          <div className="bg-[#FFDD00] rounded-full px-4 py-2 shadow-md flex flex-wrap items-center justify-start gap-4">
-            <Image src="/images/pm_bni.png" alt="BNI" width={64} height={32} className="h-8 w-auto" />
-            <Image src="/images/pm_bca.png" alt="BCA" width={64} height={32} className="h-8 w-auto" />
-            <Image src="/images/pm_mandiri.png" alt="Mandiri" width={64} height={32} className="h-8 w-auto" />
-            <Image src="/images/pm_qris.png" alt="QRIS" width={64} height={32} className="h-8 w-auto" />
+          <div className="absolute bottom-24 left-0 bg-[#FFDD00] py-2 pr-4 pl-2 rounded-r-full flex items-center gap-4 shadow-md z-10">
+            <Image src="/images/pm_bni.png" alt="BNI" width={24} height={24} className="w-8 h-8 object-contain" />
+            <Image src="/images/pm_bca.png" alt="BCA" width={24} height={24} className="w-8 h-8 object-contain" />
+            <Image src="/images/pm_mandiri.png" alt="Mandiri" width={24} height={24} className="w-8 h-8 object-contain" />
+            <Image src="/images/pm_qris.png" alt="QRIS" width={24} height={24} className="w-8 h-8 object-contain" />
+            <Image src="/images/pm_mastercard.png" alt="Mastercard" width={24} height={24} className="w-8 h-8 object-contain" />
+            <Image src="/images/pm_visa.png" alt="Visa" width={24} height={24} className="w-8 h-8 object-contain" />
           </div>
+
         </div>
 
         {/* Kolom 2 */}
