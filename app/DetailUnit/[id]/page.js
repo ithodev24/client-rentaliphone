@@ -46,14 +46,19 @@ export default function DetailUnit() {
 
           {/* Tags */}
           <div className="flex flex-wrap gap-2 text-sm">
-            {unit.weight && (
+            {/* {unit.weight && (
               <span className="border border-yellow-500 px-4 py-1 rounded-full">
                 {unit.weight}
               </span>
-            )}
+            )} */}
             {unit.daerah && (
               <span className="border border-yellow-500 px-4 py-1 rounded-full">
                 {unit.daerah}
+              </span>
+            )}
+            {unit.Penyimpanan && (
+              <span className="border border-yellow-500 px-4 py-1 rounded-full">
+                {unit.Penyimpanan}
               </span>
             )}
             {/* {unit.role && (
@@ -133,23 +138,23 @@ export default function DetailUnit() {
               <tbody>
                 <tr>
                   <td className="py-3 pr-4 font-semibold">Warna/Penyimpanan</td>
-                  <td className="py-3 text-right">{unit.Penyimpanan}</td>
+                  <td className="py-3 px-4 text-right">{unit.Penyimpanan}</td>
                 </tr>
                 <tr className="bg-gray-100">
                   <td className="py-3 pr-4 font-semibold">Warna</td>
-                  <td className="py-3 text-right">{unit.Warna}</td>
+                  <td className="py-3 px-4 text-right">{unit.Warna}</td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold">Jaringan</td>
-                  <td className="py-3 text-right">{unit.jaringan}</td>
+                  <td className="py-3 px-4 text-right">{unit.jaringan}</td>
                 </tr>
                 <tr className="bg-gray-100">
-                  <td className="py-3 pr-4 font-semibold">Baterai</td>
-                  <td className="py-3 text-right">{unit.baterai}</td>
+                  <td className="py-3 pr-4 font-semibold">Kamera</td>
+                  <td className="py-3 px-4 text-right">{unit.kamera}</td>
                 </tr>
                 {/* <tr>
                   <td className="py-3 pr-4 font-semibold">Kamera</td>
-                  <td className="py-3 text-right">{unit.kamera}</td>
+                  <td className="py-3 px-4 text-right">{unit.kamera}</td>
                 </tr> */}
               </tbody>
             </table>

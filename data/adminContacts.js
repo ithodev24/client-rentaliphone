@@ -17,40 +17,50 @@ export const generateWhatsAppLink = (unit) => {
     }
 
     // Mapping admin numbers by region
+    // const adminByDaerah = {
+    //   Jakarta, Bekasi, Bandung: ['628153135669'],
+    //   Bali, Malang, Purwokerto, Surabaya: ['6287715410084'],
+    // };
     const adminByDaerah = {
-      Bandung: ['6285724785060', '6287825171899', '6285136436020'],
-      Malang: ['6287825171899'],
-      // Add other regions as needed
+      Jakarta: ['628153135669'],
+      Bekasi: ['628153135669'],
+      Bandung: ['628153135669'],
+      Bali: ['6287715410084'],
+      Malang: ['6287715410084'],
+      Purwokerto: ['6287715410084'],
+      Surabaya: ['6287715410084'],
     };
 
-    // Get admin number based on region
+
     const nomorAdminList = adminByDaerah[unit.daerah];
-    const defaultAdmin = '6285829764860'; // Default admin number
+    const defaultAdmin = '628153135669';
     let nomorAdmin = nomorAdminList?.[0] || defaultAdmin;
 
-    // Validate phone number
+    // Validasi nomor
     if (!/^[0-9]{10,15}$/.test(nomorAdmin) || !nomorAdmin.startsWith('62')) {
       console.error(`Invalid phone number: ${nomorAdmin}. Using default admin number.`);
       nomorAdmin = defaultAdmin;
     }
 
-    // Sanitize inputs
+    // Bersihkan input untuk mencegah karakter aneh
     const sanitizedDaerah = unit.daerah.toString().trim().replace(/[^\w\s-]/g, '');
     const sanitizedName = unit.name.toString().trim().replace(/[^\w\s-]/g, '');
 
-    // Format message as a single line to match ContactPage simplicity
-    const message = `Halo Admin, saya ingin sewa ${sanitizedName} di ${sanitizedDaerah}. Apakah tersedia?`;
-
-    // Log raw message for debugging
-    console.log('Raw WhatsApp message:', message);
-
-    // Encode the entire message
+    // Pesan yang akan dikirimkan
+    const message = `Halo Admin ${sanitizedDaerah},\n\nSaya ingin menyewa unit ${sanitizedName} di ${sanitizedDaerah}.\nApakah unit tersebut masih tersedia? Terima kasih.`;
     const encodedMessage = encodeURIComponent(message);
 
-    // Construct WhatsApp link using api.whatsapp.com
-    const link = `https://api.whatsapp.com/send?phone=${nomorAdmin}&text=${encodedMessage}`;
+    // Deteksi platform
+    let baseUrl = 'https://web.whatsapp.com/send';
+    if (typeof navigator !== 'undefined') {
+      const isMobile = /android|iphone|ipad|ipod/i.test(navigator.userAgent.toLowerCase());
+      if (isMobile) {
+        baseUrl = 'https://api.whatsapp.com/send';
+      }
+    }
 
-    // Log the generated link for debugging
+    // Buat link
+    const link = `${baseUrl}?phone=${nomorAdmin}&text=${encodedMessage}`;
     console.log('Generated WhatsApp link:', link);
 
     return link;

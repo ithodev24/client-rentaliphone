@@ -17,7 +17,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Rose Gold",
-    kamera: "-",
+    kamera: "Kamera 12 MP Wide, Zoom digital hingga 5x",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -39,7 +39,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Gold",
-    kamera: "-",
+    kamera: "2× optical zoom out, digital zoom up to 5×",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -61,7 +61,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Black",
-    kamera: "-",
+    kamera: "2× optical zoom in, 2× optical zoom out, digital zoom up to 10×",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -83,7 +83,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Coral",
-    kamera: "-",
+    kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide, ultra-wide)",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -105,7 +105,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Black",
-    kamera: "-",
+    kamera: "2× optical zoom out, digital zoom hingga 5×. Dual 12 MP (wide f/1.6 dan ultra‑wide f/2.4, 120°)",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -127,7 +127,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "White",
-    kamera: "-",
+    kamera: "3× optical zoom in, 2× zoom out, digital zoom up to 15×, triple 12 MP",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -149,7 +149,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Green",
-    kamera: "-",
+    kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide & ultra-wide), sensor-shift OIS",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -171,7 +171,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Starlight",
-    kamera: "-",
+    kamera: "2× optical zoom out, digital zoom up to 5×, dual 48 MP (main) + 12 MP (ultra-wide), sensor-shift OIS",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -193,7 +193,7 @@ export const iphoneUnits = [
     facilities: ["Charger", "Softcase"],
     Penyimpanan: "64, 128 GB",
     baterai: "Deep Purple",
-    kamera: "-",
+    kamera: "3× zoom in, 2× zoom out, digital zoom up to 15×, triple 48+12+12 MP",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -215,7 +215,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Casing"],
     Penyimpanan: "64, 128 GB",
     baterai: "Titanium",
-    kamera: "-",
+    kamera: "5× zoom in, 2× zoom out, digital zoom up to 25×, triple 48+12+12 MP",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -237,7 +237,7 @@ export const iphoneUnits = [
     facilities: ["Kabel Charger", "Tas Kamera"],
     Penyimpanan: "64, 128 GB",
     baterai: "Gold",
-    kamera: "-",
+    kamera: "5× zoom in, 2× zoom out, digital zoom up to 25×, triple 48+48+12 MP",
     maxCapacity: "-",
     jaringan: "Aktif",
   },
@@ -528,7 +528,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 26,
+    id: 25,
     slug: "canon-800d--kit",
     name: "CANON 800D + KIT",
     description: "CANON 800D + KIT adalah DSLR berkualitas tinggi dengan warna Hitam.",
@@ -550,7 +550,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 27,
+    id: 26,
     slug: "canon-60d--kit",
     name: "CANON 60D + KIT",
     description: "CANON 60D + KIT dengan kualitas gambar yang tajam dan kecepatan tinggi.",
@@ -572,7 +572,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 28,
+    id: 27,
     slug: "canon-eos-m3--kit",
     name: "CANON EOS M3 + KIT",
     description: "CANON EOS M3 + KIT kamera mirrorless yang ringan dan praktis.",
@@ -594,11 +594,11 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 29,
+    id: 28,
     slug: "canon-eos-m10--kit",
     name: "CANON EOS M10 + KIT",
     description: "CANON EOS M10 + KIT kamera mirrorless untuk pemula.",
-    image: "/images/CANON EOS M10 + KIT.webp",
+    image: "/images/CANON EOS M10 + KIT.png",
     role: "Fotografer",
     harga: "130000",
     daerah: "Bandung",
@@ -616,7 +616,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 30,
+    id: 29,
     slug: "canon-eos-m--kit",
     name: "CANON EOS M + KIT",
     description: "CANON EOS M + KIT kamera mirrorless ringkas dengan kualitas DSLR.",
@@ -638,7 +638,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 31,
+    id: 30,
     slug: "canon-6d-mark-ii-bo",
     name: "CANON 6D MARK II (BO)",
     description: "CANON 6D MARK II (BO) adalah kamera full-frame dengan performa tinggi.",
@@ -660,7 +660,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 32,
+    id: 31,
     slug: "canon-sd-mark-ii-kit",
     name: "CANON SD MARK II + KIT",
     description: "CANON SD MARK II + KIT adalah kamera DSLR dengan performa unggul untuk fotografi.",
@@ -682,7 +682,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 33,
+    id: 32,
     slug: "canon-7d-mark-ii-kit",
     name: "CANON 7D + KIT",
     description: "CANON 7D + KIT adalah kamera DSLR dengan performa unggul untuk fotografi.",
@@ -704,7 +704,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 34,
+    id: 33,
     slug: "canon-16-55mm-f35-5",
     name: "LENSA CANON 16-55MM F/3.5-5",
     description: "Lensa Canon 16-55mm dengan aperture fleksibel untuk fotografi serbaguna.",
@@ -726,7 +726,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 35,
+    id: 34,
     slug: "canon-ef-24-105mm-f4",
     name: "LENSA CANON EF 24-105MM F/4",
     description: "Lensa Canon EF 24-105mm dengan kualitas optik tinggi untuk berbagai kondisi.",
@@ -748,7 +748,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 36,
+    id: 35,
     slug: "canon-ef-70-200mm-f28",
     name: "LENSA CANON EF 70-200MM F/2.8 II",
     description: "Lensa telephoto Canon EF 70-200mm dengan aperture lebar untuk fotografi profesional.",
@@ -770,11 +770,11 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 37,
+    id: 36,
     slug: "canon-stm-50mm-f18",
     name: "LENSA CANON STM 50MM F1.8",
     description: "Lensa Canon STM 50mm dengan aperture besar untuk potret berkualitas.",
-    image: "/images/LENSA CANON STM 50MM.jpg",
+    image: "/images/LENSA CANON STM 50MM F1.8.jpg",
     role: "Fotografer",
     harga: "120000",
     daerah: "Bandung",
@@ -792,7 +792,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 38,
+    id: 37,
     slug: "canon-55-250mm-f4-5",
     name: "LENSA CANON 55-250MM F/4-5",
     description: "Lensa zoom Canon 55-250mm untuk fotografi jarak jauh.",
@@ -814,7 +814,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 39,
+    id: 38,
     slug: "canon-yn-50mm-f18",
     name: "LENSA CANON YN 50MM F/1.8",
     description: "Lensa Canon YN 50mm dengan aperture lebar untuk potret tajam.",
@@ -836,7 +836,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 40,
+    id: 39,
     slug: "sigma-30mm-f14-dsm",
     name: "LENSA SIGMA 30MM F/1.4 DSM",
     description: "Lensa Sigma 30mm dengan aperture lebar untuk fotografi low-light.",
@@ -858,7 +858,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 41,
+    id: 40,
     slug: "canon-70-300mm-f4-5",
     name: "LENSA CANON 70-300MM F/4-5",
     description: "Lensa zoom Canon 70-300mm untuk fotografi jarak jauh dengan detail tinggi.",
@@ -880,7 +880,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 42,
+    id: 41,
     slug: "canon-10-18mm",
     name: "LENSA CANON 10-18MM",
     description: "Lensa ultra-wide Canon 10-18mm untuk fotografi lanskap.",
@@ -902,7 +902,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 43,
+    id: 42,
     slug: "canon-70-300mm-f4-5-6",
     name: "LENSA CANON EF 70-300MM F/4-5.6",
     description: "Lensa Canon EF 70-300mm dengan aperture fleksibel untuk fotografi jarak jauh.",
@@ -924,7 +924,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
   {
-    id: 44,
+    id: 43,
     slug: "canon-ef-70-200mm-f28-is-ii",
     name: "LENSA CANON EF 70-200MM F/2.8 IS II",
     description: "Lensa telephoto Canon EF 70-200mm dengan stabilisasi gambar untuk fotografi profesional.",
@@ -946,7 +946,7 @@ export const iphoneUnits = [
     jaringan: "Aktif"
   },
 {
-  id: 43,
+  id: 44,
   slug: "iphone-15-promax",
   name: "iPhone 15 ProMax",
   description: "Ditenagai chip A17 Pro terbaru, performanya luar biasa cepat dan efisien. Kamera utamanya 48 MP menghadirkan hasil foto dan video yang tajam.",
@@ -963,13 +963,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "256 GB",
   baterai: "Titanium",
-  kamera: "-",
+  kamera: "5× zoom in, 2× zoom out, digital zoom up to 25×, triple 48+12+12 MP",
   maxCapacity: "-",
   jaringan: "Aktif",
 },
 
 {
-  id: 44,
+  id: 45,
   slug: "iphone-14-pro",
   name: "iPhone 14 Pro",
   description: "iPhone 14 Pro dengan dual-camera dan chip A13 Bionic, ideal untuk fotografi sehari-hari.",
@@ -992,7 +992,7 @@ export const iphoneUnits = [
 },
 
 {
-  id: 45,
+  id: 46,
   slug: "iphone-13-pro",
   name: "iPhone 13 Pro",
   description: "iPhone 13 Pro dengan chip A15 Bionic, performa tinggi dalam desain kompak.",
@@ -1015,7 +1015,7 @@ export const iphoneUnits = [
 },
 
 {
-  id: 46,
+  id: 47,
   slug: "iphone-12-pro",
   name: "iPhone 12 Pro",
   description: "iPhone 12 Pro dengan layar Liquid Retina dan chip A12 Bionic, menawarkan performa solid.",
@@ -1038,7 +1038,7 @@ export const iphoneUnits = [
 },
 
 {
-  id: 47,
+  id: 48,
   slug: "iphone-11-pro",
   name: "iPhone 11 Pro",
   description: "iPhone 11 Pro dengan performa solid dan desain tahan air, ideal untuk penggunaan sehari-hari.",
@@ -1055,13 +1055,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "256 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom in, 2× optical zoom out, digital zoom up to 10×",
   maxCapacity: "-",
   jaringan: "Aktif",
 },
 
 {
-  id: 48,
+  id: 49,
   slug: "iphone-11",
   name: "iPhone 11",
   description: "iPhone 11 dengan desain klasik dan chip A11 Bionic, cocok untuk pengguna yang menginginkan iPhone dengan harga terjangkau.",
@@ -1078,13 +1078,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64 GB",
   baterai: "Gold",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×",
   maxCapacity: "-",
   jaringan: "Aktif",
 },
 
 {
-  id: 49,
+  id: 50,
   slug: "iphone-xr",
   name: "iPhone XR",
   description: "iPhone XR dengan desain klasik dan performa yang masih relevan untuk penggunaan dasar.",
@@ -1101,13 +1101,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64 GB",
   baterai: "Rose Gold",
-  kamera: "-",
+  kamera: "Kamera 12 MP Wide, Zoom digital hingga 5x",
   maxCapacity: "-",
   jaringan: "Aktif",
 },
   // malang
   {
-  id: 50,
+  id: 51,
   slug: "iphone-xr",
   name: "iPhone XR",
   description: "iPhone XR dengan desain klasik dan performa yang masih relevan untuk penggunaan dasar.",
@@ -1124,13 +1124,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "256 GB",
   baterai: "Rose Gold",
-  kamera: "-",
+  kamera: "Kamera 12 MP Wide, Zoom digital hingga 5x",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
 
 {
-  id: 51,
+  id: 52,
   slug: "iphone-11",
   name: "iPhone 11",
   description: "iPhone 11 dengan desain klasik dan chip A11 Bionic, cocok untuk pengguna yang menginginkan iPhone dengan harga terjangkau.",
@@ -1147,13 +1147,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128 GB",
   baterai: "Gold",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
 
 {
-  id: 52,
+  id: 53,
   slug: "iphone-11-pro",
   name: "iPhone 11 Pro",
   description: "iPhone 11 Pro dengan performa solid dan desain tahan air, ideal untuk penggunaan sehari-hari.",
@@ -1170,13 +1170,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128,256 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom in, 2× optical zoom out, digital zoom up to 10×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
 
 {
-  id: 53,
+  id: 54,
   slug: "iphone-12",
   name: "iPhone 12",
   description: "iPhone 12 dengan layar Liquid Retina dan chip A12 Bionic, menawarkan performa solid.",
@@ -1199,7 +1199,7 @@ export const iphoneUnits = [
 },
 
 {
-  id: 54,
+  id: 55,
   slug: "iphone-12-pro",
   name: "iPhone 12 Pro",
   description: "iPhone 12 Pro dengan layar Liquid Retina dan chip A12 Bionic, menawarkan performa solid.",
@@ -1222,7 +1222,7 @@ export const iphoneUnits = [
 },
 
 {
-  id: 55,
+  id: 56,
   slug: "iphone-13",
   name: "iPhone 13",
   description: "iPhone 13 dengan chip A14 Bionic dan desain flat-edge yang modern.",
@@ -1239,13 +1239,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom hingga 5×. Dual 12 MP (wide f/1.6 dan ultra‑wide f/2.4, 120°)",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
 
 {
-  id: 56,
+  id: 57,
   slug: "iphone-13-pro",
   name: "iPhone 13 Pro",
   description: "iPhone 13 Pro dengan chip A15 Bionic, performa tinggi dalam desain kompak.",
@@ -1262,13 +1262,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128 GB",
   baterai: "White",
-  kamera: "-",
+  kamera: "3× optical zoom in, 2× zoom out, digital zoom up to 15×, triple 12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
 
 {
-  id: 57,
+  id: 58,
   slug: "iphone-14",
   name: "iPhone 14",
   description: "iPhone 14 dengan dual-camera dan chip A13 Bionic, ideal untuk fotografi sehari-hari.",
@@ -1285,13 +1285,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128 GB",
   baterai: "Green",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide & ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
 
 {
-  id: 58,
+  id: 59,
   slug: "iphone-15",
   name: "iPhone 15",
   description: "Dengan chip A15 Bionic, iPhone 15 menawarkan performa cepat dan efisiensi baterai yang baik.",
@@ -1308,13 +1308,13 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128 GB",
   baterai: "Starlight",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 48 MP (main) + 12 MP (ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
 
 {
-  id: 59,
+  id: 60,
   slug: "iphone-15-pro-max",
   name: "iPhone 15 Pro Max",
   description: "Ditenagai chip A17 Pro terbaru, performanya luar biasa cepat dan efisien. Kamera utamanya 48 MP menghadirkan hasil foto dan video yang tajam.",
@@ -1331,7 +1331,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128 GB",
   baterai: "Titanium",
-  kamera: "-",
+  kamera: "5× zoom in, 2× zoom out, digital zoom up to 25×, triple 48+12+12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1354,7 +1354,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128,256 GB",
   baterai: "Rose Gold",
-  kamera: "-",
+  kamera: "Kamera 12 MP Wide, Zoom digital hingga 5x",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1377,7 +1377,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Gold",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1400,7 +1400,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128,256 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom in, 2× optical zoom out, digital zoom up to 10×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1423,7 +1423,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128,256 GB",
   baterai: "Coral",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide, ultra-wide)",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1469,7 +1469,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom hingga 5×. Dual 12 MP (wide f/1.6 dan ultra‑wide f/2.4, 120°)",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1492,7 +1492,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "White",
-  kamera: "-",
+  kamera: "3× optical zoom in, 2× zoom out, digital zoom up to 15×, triple 12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1515,7 +1515,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Green",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide & ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1538,7 +1538,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Starlight",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 48 MP (main) + 12 MP (ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1561,7 +1561,7 @@ export const iphoneUnits = [
   facilities: ["Charger", "Softcase"],
   Penyimpanan: "64,128 GB",
   baterai: "Deep Purple",
-  kamera: "-",
+  kamera: "3× zoom in, 2× zoom out, digital zoom up to 15×, triple 48+12+12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1584,7 +1584,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Titanium",
-  kamera: "-",
+  kamera: "5× zoom in, 2× zoom out, digital zoom up to 25×, triple 48+12+12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1607,7 +1607,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128,256 GB",
   baterai: "Rose Gold",
-  kamera: "-",
+  kamera: "Kamera 12 MP Wide, Zoom digital hingga 5x",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1630,7 +1630,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Gold",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1653,7 +1653,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128,256 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom in, 2× optical zoom out, digital zoom up to 10×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1676,7 +1676,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128,256 GB",
   baterai: "Coral",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide, ultra-wide)",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1722,7 +1722,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom hingga 5×. Dual 12 MP (wide f/1.6 dan ultra‑wide f/2.4, 120°)",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1745,7 +1745,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "White",
-  kamera: "-",
+  kamera: "3× optical zoom in, 2× zoom out, digital zoom up to 15×, triple 12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1768,7 +1768,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Green",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide & ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1791,7 +1791,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Starlight",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 48 MP (main) + 12 MP (ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1814,7 +1814,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Titanium",
-  kamera: "-",
+  kamera: "5× zoom in, 2× zoom out, digital zoom up to 25×, triple 48+12+12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1837,7 +1837,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "128,256 GB",
   baterai: "Rose Gold",
-  kamera: "-",
+  kamera: "Kamera 12 MP Wide, Zoom digital hingga 5x",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1860,7 +1860,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Gold",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1883,7 +1883,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128,256 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom in, 2× optical zoom out, digital zoom up to 10×",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1906,7 +1906,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128,256 GB",
   baterai: "Coral",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide, ultra-wide)",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1952,7 +1952,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Black",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom hingga 5×. Dual 12 MP (wide f/1.6 dan ultra‑wide f/2.4, 120°)",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -1975,8 +1975,8 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "White",
-  kamera: "-",
-  maxCapacity: "-",
+  kamera: "3× optical zoom in, 2× zoom out, digital zoom up to 15×, triple 12 MP",
+  maxCapacity: "3× optical zoom in, 2× zoom out, digital zoom up to 15×, triple 12 MP",
   jaringan: "Aktif"
 },
 
@@ -1998,7 +1998,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Green",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 12 MP (wide & ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -2021,7 +2021,7 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Starlight",
-  kamera: "-",
+  kamera: "2× optical zoom out, digital zoom up to 5×, dual 48 MP (main) + 12 MP (ultra-wide), sensor-shift OIS",
   maxCapacity: "-",
   jaringan: "Aktif"
 },
@@ -2044,8 +2044,74 @@ export const iphoneUnits = [
   facilities: ["Kabel Charger", "Casing"],
   Penyimpanan: "64,128 GB",
   baterai: "Titanium",
-  kamera: "-",
+  kamera: "5× zoom in, 2× zoom out, digital zoom up to 25×, triple 48+12+12 MP",
   maxCapacity: "-",
   jaringan: "Aktif"
-}
+},
+{
+    id: 92,
+    slug: "fujifilm-xh1-bo",
+    name: "FUJIFILM X-H1 (BO)",
+    description: "Kamera mirrorless FUJIFILM X-H1 warna hitam, cocok untuk video dan fotografi profesional.",
+    image: "/images/FUJIFILM X-H1 (BO).jpg", // ganti dengan path gambar sesuai
+    role: "Fotografer",
+    harga: "310000",
+    daerah: "Bandung",
+    kebutuhan: "Dekat",
+    Warna: "Hitam",
+    status: "Tersedia",
+    weight: "-",
+    weekdayPrice: "310000",
+    weekendPrice: "350000",
+    facilities: ["Baterai", "Charger"],
+    Penyimpanan: "( Kamera Digital )",
+    baterai: "1x Baterai",
+    kamera: "FUJIFILM X-H1",
+    maxCapacity: "-",
+    jaringan: "Aktif",
+  },
+  {
+    id: 93,
+    slug: "canon-110d-kit",
+    name: "CANON 110D + KIT",
+    description: "Kamera DSLR Canon 110D dengan lensa kit, cocok untuk pemula.",
+    image: "/images/CANON 110D + KIT.jpg",
+    role: "Fotografer",
+    harga: "110000",
+    daerah: "Bandung",
+    kebutuhan: "Dekat",
+    Warna: "Hitam",
+    status: "Tersedia",
+    weight: "-",
+    weekdayPrice: "110000",
+    weekendPrice: "130000",
+    facilities: ["Lensa Kit", "Baterai", "Charger"],
+    Penyimpanan: "( Kamera Digital )",
+    baterai: "1x Baterai",
+    kamera: "CANON 110D",
+    maxCapacity: "-",
+    jaringan: "Aktif",
+  },
+  {
+    id: 94,
+    slug: "canon-5d-mark-ii-kit",
+    name: "CANON 5D MARK II + KIT",
+    description: "Kamera full-frame Canon 5D Mark II dengan lensa kit, ideal untuk kebutuhan profesional.",
+    image: "/images/CANON SD MARK II + KIT.jpg",
+    role: "Fotografer",
+    harga: "310000",
+    daerah: "Bandung",
+    kebutuhan: "Dekat",
+    Warna: "Hitam",
+    status: "Tersedia",
+    weight: "-",
+    weekdayPrice: "310000",
+    weekendPrice: "350000",
+    facilities: ["Lensa Kit", "Baterai", "Charger"],
+    Penyimpanan: "( Kamera Digital )",
+    baterai: "1x Baterai",
+    kamera: "CANON 5D MARK II",
+    maxCapacity: "-",
+    jaringan: "Aktif",
+  }
 ];
