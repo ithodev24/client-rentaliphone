@@ -89,8 +89,8 @@ const SosialMediaDropdown = () => {
                 users: [{ handle: "@pixelnesia.malang", link: "https://www.tiktok.com/@pixelnesia.malang?_t=ZS-8yK578MBOl8&_r=1" }]
               },
               {
-                area: "Jogja",
-                users: [{ handle: "@pixelnesia.jogja", link: "https://www.tiktok.com/@pixelnesia.jogja?_t=ZS-8yK5FkVHoM4&_r=1" }]
+                area: "Surabaya",
+                users: [{ handle: "@pixelnesia.sby", link: "https://www.tiktok.com/@pixelnesia.sby?_t=ZS-8yK5FkVHoM4&_r=1" }]
               },
             ].map((region, index) => (
               <div key={index}>
