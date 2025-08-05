@@ -9,6 +9,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+    domains: ['backend.ptdahliaglobalindo.id'],
   },
 };
 
