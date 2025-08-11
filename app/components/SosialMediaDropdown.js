@@ -36,7 +36,7 @@ const SosialMediaDropdown = () => {
                 target="_blank"
                 className="inline-block bg-green-600 text-white px-4 py-2 rounded-full mt-1 text-sm"
               >
-                (+62) 815 3135 669
+                (+62) 877 1541 0084
               </a>
             </div>
             <hr className="border-t border-green-400" />
@@ -47,7 +47,7 @@ const SosialMediaDropdown = () => {
                 target="_blank"
                 className="inline-block bg-green-600 text-white px-4 py-2 rounded-full mt-1 text-sm"
               >
-                (+62) 877 1541 0084
+                (+62) 815 3135 669
               </a>
             </div>
             <hr className="border-t border-green-400" />

@@ -56,7 +56,7 @@ export default function DaftarUnit() {
       {/* Header: Search + Filter */}
       <div
         className="relative bg-cover bg-center h-48 flex flex-col items-center justify-center px-4"
-        style={{ backgroundImage: "url('/images/bg_daftarunit.png')" }}
+        style={{ backgroundImage: "url('/images/bg_daftarunitip.png')" }}
       >
         <div className="absolute inset-0 bg-black opacity-30" />
         <div className="relative z-10 flex items-center w-full max-w-2xl">
