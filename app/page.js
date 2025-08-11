@@ -158,11 +158,15 @@ export default function HomePage() {
         <div className="flex flex-col lg:flex-row items-center gap-10 max-w-7xl mx-auto">
           <div className="flex-1 text-center lg:text-left">
             <h2 className="text-3xl font-bold">Pixelnesia</h2>
-            <h3 className="text-xl font-semibold mb-3">Rental Iphone Indonesia</h3>
-            <p className="text-sm sm:text-base leading-relaxed">
-              Sebagai bagian dari ekosistem layanan PT Dahlia Global Indo, Pixelnesia hadir untuk menjawab kebutuhan masyarakat modern yang
-              menginginkan akses mudah terhadap perangkat teknologi tanpa harus membeli...
-            </p>
+              <h3 className="text-xl font-semibold mb-3">
+                Rental Iphone Indonesia
+              </h3>
+              <p className="text-sm sm:text-base leading-relaxed">
+                Sebagai bagian dari ekosistem layanan PT Dahlia Global Indo, Pixelnesia hadir untuk menjawab kebutuhan masyarakat modern yang menginginkan akses mudah terhadap perangkat teknologi tanpa harus membeli. Pixelnesia menyediakan layanan rental Iphone yang fleksibel, ekonomis, dan terpercaya, cocok untuk berbagai kebutuhan pribadi maupun profesional.
+                <br />
+                <br />
+                Melalui Pixelnesia, pelanggan dapat menikmati kemudahan dalam menyewa Iphone, mulai dari proses pemesanan yang cepat, pilihan perangkat terbaru yang terawat, hingga dukungan layanan pelanggan yang sigap dan informatif. Komitmen PT Dahlia Global Indo dalam menghadirkan layanan unggulan tercermin dalam setiap aspek Pixelnesia, menjadikannya solusi cerdas untuk gaya hidup digital masa kini.
+              </p>
           </div>
           <div className="flex-1">
             <Image
